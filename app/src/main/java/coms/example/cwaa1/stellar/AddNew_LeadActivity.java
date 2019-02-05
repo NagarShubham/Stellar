@@ -189,6 +189,7 @@ public class AddNew_LeadActivity extends Fragment {
                     et_leadvalue.setSelection(finalValue.length());
                 } catch (Exception e) {
                     // Do nothing since not a number
+                    // commite test
                 }
             }
 
