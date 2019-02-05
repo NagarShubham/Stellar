@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignLead.AssignLeadFragment">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/text_me_one"
+            android:paddingLeft="10dp"
+            android:text="Assign By"
+            android:textColor="@color/whitecolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/text_me_one"
+            android:text="Assign To"
+            android:textColor="@color/whitecolor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/l1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/lby"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/spiner_back_tab"
+            android:fontFamily="@font/text_me_one"
+            android:textColor="@color/whitecolor"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/lto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/spiner_back_tab"
+            android:fontFamily="@font/text_me_one"
+            android:textColor="@color/whitecolor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec_assign"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_assign"
+        android:layout_below="@id/l2"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/btn_assign"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/tabcolor"
+        android:fontFamily="@font/text_me_one"
+        android:text="Assign"
+        android:textColor="@color/whitecolor" />
+
+</RelativeLayout>

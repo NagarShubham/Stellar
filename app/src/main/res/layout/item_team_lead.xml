@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="4"
+        android:background="@color/tvback"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/item_leadname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="@color/whitecolor"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="hello"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/item_leadmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="@color/whitecolor"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="hello"
+                    android:textColor="@color/whitecolor" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:id="@+id/item_leaddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_event_black_24dp"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="@color/whitecolor"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="hello"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/item_leadcontacttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_contact_mail_black_24dp"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="@color/whitecolor"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="hello"
+                    android:textColor="@color/whitecolor" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_home_black_24dp" />
+
+                <TextView
+                    android:id="@+id/item_leadaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/text_me_one"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="4dp"
+                    android:text="Heesdsfsdf"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/item_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/item_follow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+
+                android:layout_weight="1"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/item_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@color/tabcolor"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_remove_red_eye_black_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

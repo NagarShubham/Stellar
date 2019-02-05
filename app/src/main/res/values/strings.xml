@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Stellar</string>
+    <string name="link">http://theclassbunkers.in/stellar_crm/mobileService/MobileApi</string>
+
+    //testing
+
+    <!--<string name="link">http://theclassbunkers.in/stellar_crm/testing_code/mobileService/MobileApi</string>-->
+
+
+    <string name="Image_Path">http://theclassbunkers.in/stellar_crm/uploads/profileImages/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="link">http://192.168.1.12/stellar_crm/mobileService/MobileApi</string>-->
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="stellar">stelleruser</string>
+    <string name="usrid">empid</string>
+    <string name="usrEmail">empEmail</string>
+    <string name="usrParents">userParent</string>
+    <string name="inherit">inherit</string>
+
+    <string name="username">full_name</string>
+    <string name="usermobile">mobile</string>
+    <string name="useralter_number">alter_number</string>
+    <string name="useraddress">address</string>
+    <string name="userpin">pincode</string>
+    <string name="usergender">gender</string>
+    <string name="useraniversary_date">aniversary_date</string>
+    <string name="userdesignation">designation</string>
+    <string name="usercountry_name">country_name</string>
+    <string name="userstate_name">state_name</string>
+    <string name="usercity_name">city_name</string>
+    <string name="userdateofjin">joindate</string>
+    <string name="userdob">dob</string>
+    <string name="userdepart">depart</string>
+
+
+    <string name="userimg">image_name</string>
+    <string name="usertype">employee_type</string>
+    <string name="attandenceStatus">attenStatus</string>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

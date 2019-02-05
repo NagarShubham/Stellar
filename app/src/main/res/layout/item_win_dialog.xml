@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/bgt"
+android:paddingRight="4dp"
+    android:paddingLeft="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/text_me_one"
+            android:text="Order No"
+            android:textColor="@color/whitecolor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/text_me_one"
+            android:text="Order Value"
+            android:textColor="@color/whitecolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/w_purchase_order_no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center_vertical"
+            android:hint=""
+            android:padding="10dp"
+            android:textColor="@color/textcolor" />
+
+        <EditText
+            android:id="@+id/w_purchase_order_value"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center_vertical"
+            android:hint="order value"
+            android:padding="10dp"
+            android:textColor="@color/textcolor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/text_me_one"
+            android:text="Sales Order No."
+            android:textColor="@color/whitecolor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/text_me_one"
+            android:text="Delivery Date"
+            android:textColor="@color/whitecolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/w_sales_order_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center_vertical"
+            android:hint="sales_order_number"
+            android:padding="10dp"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/w_exp_delivery_date"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center_vertical"
+            android:hint=""
+            android:padding="10dp"
+            android:textColor="@color/textcolor" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/text_me_one"
+        android:text="Payment Type"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp" />
+
+
+
+    <Spinner
+        android:entries="@array/paymentCondition"
+        android:id="@+id/sp_paymentType"
+        android:layout_margin="5dp"
+        android:background="@drawable/spiner_back_tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <Button
+            android:layout_marginRight="1dp"
+            android:text="cancel"
+            android:id="@+id/btn_Wcancel"
+            android:textSize="20sp"
+            android:textColor="@color/whitecolor"
+            android:background="@color/tabcolor"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_marginLeft="1dp"
+            android:text="Ok"
+            android:id="@+id/btn_Wok"
+            android:textSize="20sp"
+            android:textColor="@color/whitecolor"
+            android:background="@color/tabcolor"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

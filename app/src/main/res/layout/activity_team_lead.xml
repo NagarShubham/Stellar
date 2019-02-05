@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".TeamLeadView.TeamLeadActivity">
+
+    <TextView
+        android:id="@+id/it"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:fontFamily="@font/text_me_one"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Team Lead"
+        android:textColor="@color/whitecolor"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_team"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/it"
+        android:background="@color/tabcolor"
+        app:tabBackground="@color/tabcolor"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/whitecolor"
+        app:tabMaxWidth="0dp"
+        app:tabMode="scrollable"
+        app:tabTextColor="@color/whitecolor" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerteam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_team"
+        android:layout_marginTop="2dp" />
+</RelativeLayout>

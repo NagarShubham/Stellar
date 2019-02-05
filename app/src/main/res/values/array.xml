@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="contacttype">
+        <item>Phone Call</item>
+        <item>Email</item>
+        <item>Visit</item>
+    </string-array>
+
+    <string-array name="leadtype">
+        <item>Very Hot</item>
+        <item>Hot</item>
+        <item>Warm</item>
+        <item>Cold</item>
+        <item>Lost</item>
+    </string-array>
+
+    <string-array name="Gander">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+
+    </string-array>
+
+
+    <string-array name="paymentCondition">
+        <item>Cash on Dilevery</item>
+        <item>Online Transaction</item>
+        <item>Paytm</item>
+    </string-array>
+
+
+
+    <string-array name="responce">
+        <item>Switch Off</item>
+        <item>Not Pick up call</item>
+        <item>Not Interested</item>
+        <item>Callback Letter</item>
+        <item>Work With Other</item>
+    </string-array>
+
+    <string-array name="weekday">
+        <item>sunday</item>
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+        <item>saturday</item>
+    </string-array>
+
+    <string-array name="leadType">
+        <item>Full Day</item>
+        <item>Half Day</item>
+        <item>Multiple Days</item>
+    </string-array>
+
+    <string-array name="monthName">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+</resources>

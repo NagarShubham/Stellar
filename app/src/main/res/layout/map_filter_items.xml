@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgg"
+    >
+
+
+
+    <TextView
+        android:id="@+id/ft"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/tabcolor"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Filter"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ft"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/filter_sp_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinerback_edittext" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:textColor="@color/whitecolor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:gravity="center_vertical"
+            android:id="@+id/filter_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinerback_edittext" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:text="To Time"
+                android:textColor="@color/whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="From Time"
+                android:textColor="@color/whitecolor"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:id="@+id/filter_tv_totime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_backgroung" />
+
+            <TextView
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:id="@+id/filter_tv_fromotime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_backgroung" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/t"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tabcolor"
+            android:gravity="center"
+            android:id="@+id/btn_filter_cancle"
+            android:text="Cancel"
+            android:textColor="@color/whitecolor"
+            android:layout_marginEnd="1dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tabcolor"
+            android:gravity="center"
+            android:id="@+id/btn_filter_save"
+            android:text="Save"
+            android:layout_marginStart="1dp"
+            android:textColor="@color/whitecolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
