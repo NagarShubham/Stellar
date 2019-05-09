@@ -24,86 +24,123 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/color_icon_person" />
 
                 <TextView
                     android:id="@+id/item_checkname"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_person"
-                    android:drawablePadding="15dp"
-                    android:drawableTint="@color/whitecolor"
+
                     android:fontFamily="@font/text_me_one"
                     android:gravity="center_vertical"
                     android:paddingLeft="10dp"
-                    android:text="hello"
+                    android:text=""
                     android:textColor="@color/whitecolor" />
+                </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/color_icon_mobile" />
                 <TextView
                     android:id="@+id/item_checkmobile"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
-                    android:drawablePadding="15dp"
-                    android:drawableTint="@color/whitecolor"
+                    android:layout_height="match_parent"
+
                     android:fontFamily="@font/text_me_one"
                     android:gravity="center_vertical"
                     android:paddingLeft="10dp"
-                    android:text="hello"
+                    android:text=""
                     android:textColor="@color/whitecolor" />
 
-
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/color_icon_event" />
 
 
                 <TextView
 
                     android:id="@+id/item_checkdate"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_event_black_24dp"
-                    android:drawablePadding="15dp"
-                    android:drawableTint="@color/whitecolor"
                     android:fontFamily="@font/text_me_one"
                     android:gravity="center_vertical"
                     android:paddingLeft="10dp"
-                    android:text="hello"
+                    android:text=""
                     android:textColor="@color/whitecolor" />
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/icons_contacts" />
+
+                    <TextView
                     android:id="@+id/item_checkcontacttype"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_contact_mail_black_24dp"
-                    android:drawablePadding="15dp"
-                    android:drawableTint="@color/whitecolor"
+
                     android:fontFamily="@font/text_me_one"
                     android:gravity="center_vertical"
                     android:paddingLeft="10dp"
-                    android:text="hello"
+                    android:text=""
                     android:textColor="@color/whitecolor" />
-
+                </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -120,7 +157,7 @@
                     android:fontFamily="@font/text_me_one"
                     android:paddingLeft="15dp"
                     android:paddingTop="4dp"
-                    android:text="Heesdsfsdf"
+                    android:text=""
                     android:textColor="@color/whitecolor" />
             </LinearLayout>
 
@@ -148,7 +185,7 @@
                 android:layout_alignParentBottom="true"
                 android:background="@color/tabcolor"
                 android:id="@+id/item_cview"
-                android:layout_height="50dp">
+                android:layout_height="36dp">
                 <ImageView
                     android:src="@drawable/ic_remove_red_eye_black_24dp"
                     android:layout_centerVertical="true"

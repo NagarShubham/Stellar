@@ -7,9 +7,9 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_centerVertical="true"
-        android:src="@drawable/stellarlogo"
+        android:src="@drawable/stellar_imag"
+        android:scaleType="fitXY"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

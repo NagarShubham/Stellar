@@ -94,7 +94,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/text_me_one"
-                android:text="Office Number"
+                android:text="Other Mobile"
                 android:textColor="@color/whitecolor"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -117,14 +117,14 @@
                 android:textColor="@color/textcolor" />
 
             <TextView
-                android:id="@+id/a_officeno"
+                android:id="@+id/a_mobile1"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/edittext_backgroung"
                 android:gravity="center_vertical"
-                android:hint="Email"
+                android:hint=""
                 android:padding="10dp"
                 android:textColor="@color/textcolor" />
         </LinearLayout>
@@ -361,6 +361,29 @@
                 android:padding="10dp"
                 android:textColor="@color/textcolor" />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/text_me_one"
+            android:text="Office Phone"
+            android:textColor="@color/whitecolor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/a_officeno"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center_vertical"
+            android:hint=""
+            android:padding="10dp"
+            android:textColor="@color/textcolor" />
+
+
 
         <TextView
             android:layout_width="match_parent"

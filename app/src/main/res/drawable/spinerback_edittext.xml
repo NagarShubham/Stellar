@@ -7,7 +7,6 @@
 
             <solid android:color="#7A7981" />
 
-
         </shape>
     </item>
 
@@ -15,8 +14,6 @@
 
         <bitmap android:src="@drawable/arrow_down"
             android:gravity="end"
-            android:tint="#fff" />
-
+            android:tint="#ffffff" />
     </item>
-
 </layer-list>

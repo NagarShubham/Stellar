@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:688755770183:android:9d0398acd00b09a2",
         "android_client_info": {
-          "package_name": "coms.example.cwaa1.stellar"
+          "package_name": "com.stellar.android.app"
         }
       },
       "oauth_client": [

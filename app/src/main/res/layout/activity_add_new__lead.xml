@@ -7,13 +7,9 @@
     android:background="@drawable/bg"
     tools:context=".AddNew_LeadActivity">
 
-
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@id/action_bar"
             android:layout_margin="15dp"
             android:orientation="vertical">
@@ -27,7 +23,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/text_me_one"
                     android:text="Full Name"
@@ -37,7 +33,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/text_me_one"
                     android:text="Email"
@@ -50,11 +46,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/et_name"
+                <AutoCompleteTextView
+                    android:id="@+id/auto_name"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:inputType="textCapSentences"
                     android:background="@drawable/edittext_backgroung"
@@ -67,7 +63,7 @@
                     android:id="@+id/et_mail"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:background="@drawable/edittext_backgroung"
                     android:hint="Email"
@@ -87,7 +83,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/text_me_one"
                     android:text="Mobile"
@@ -97,10 +93,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/text_me_one"
-                    android:text="office Number"
+                    android:text="other Mobile"
                     android:textColor="@color/whitecolor"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -110,12 +106,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/et_mobile"
+                <AutoCompleteTextView
+                    android:id="@+id/auto_mobile"
 
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:background="@drawable/edittext_backgroung"
                     android:hint="1234"
@@ -126,18 +122,18 @@
                     android:textColor="@color/textcolor" />
 
                 <EditText
-                    android:id="@+id/et_phone"
-
+                    android:id="@+id/et_mobile1"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:background="@drawable/edittext_backgroung"
-                    android:hint="0731"
+                    android:maxLength="10"
                     android:inputType="number"
                     android:padding="10dp"
                     android:imeOptions="actionNext"
                     android:textColor="@color/textcolor" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -184,22 +180,20 @@
                     android:background="@drawable/edittext_backgroung"
                     android:hint="name"
                     android:padding="10dp"
+
                     android:imeOptions="actionNext"
                     android:textColor="@color/textcolor" />
 
-                <EditText
-                    android:id="@+id/et_designation"
-
+                <Spinner
+                    android:id="@+id/sp_designation"
+android:background="@drawable/spinerback_edittext"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
-                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_weight="1"
-                    android:inputType="textCapSentences"
-                    android:background="@drawable/edittext_backgroung"
-                    android:hint="designation"
+                    android:entries="@array/designation"
                     android:padding="10dp"
-                    android:imeOptions="actionNext"
-                    android:textColor="@color/textcolor" />
+                    />
             </LinearLayout>
 
 
@@ -309,16 +303,17 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/et_department"
+                <Spinner
+                    android:id="@+id/sp_department"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:entries="@array/department"
                     android:inputType="textCapSentences"
-                    android:background="@drawable/edittext_backgroung"
+                    android:background="@drawable/spinerback_edittext"
                     android:hint="Department"
-                    android:padding="10dp"
+                    android:padding="6dp"
                     android:imeOptions="actionNext"
                     android:textColor="@color/textcolor" />
 
@@ -527,7 +522,6 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
                     android:fontFamily="@font/text_me_one"
                     android:text="Contact Type"
                     android:textColor="@color/whitecolor"
@@ -535,7 +529,7 @@
                 <TextView
                     android:layout_weight="1"
                     android:layout_marginLeft="16dp"
-                    android:text="Lead Type"
+                    android:text="office Number"
                     android:fontFamily="@font/text_me_one"
                     android:textSize="20sp"
                     android:textColor="@color/whitecolor"
@@ -547,7 +541,6 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:layout_marginBottom="20dp"
 
                 android:orientation="horizontal">
 
@@ -564,16 +557,42 @@
                     android:hint="contact"
                     android:padding="10dp"
                     android:textColor="@color/textcolor" />
-                <Spinner
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
-                    android:id="@+id/sp_leadtype"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/spinerback_edittext"
-                    android:entries="@array/leadtype" />
+                    android:background="@drawable/edittext_backgroung"
+                    android:hint="0731"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:imeOptions="actionNext"
+                    android:textColor="@color/textcolor" />
+
             </LinearLayout>
 
+
+            <TextView
+                android:text="Lead Type"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/text_me_one"
+                android:textSize="20sp"
+                android:textColor="@color/whitecolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                android:clickable="false"
+                android:id="@+id/sp_leadtype"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/spinerback_edittext"
+                android:entries="@array/leadtype" />
 
 
 

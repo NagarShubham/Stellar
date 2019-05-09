@@ -25,9 +25,9 @@
 
 
     <string-array name="paymentCondition">
-        <item>Cash on Dilevery</item>
-        <item>Online Transaction</item>
-        <item>Paytm</item>
+        <item>Payment after 30 days </item>
+        <item>Advance + Full payment before delivery</item>
+        <item>Full Payment in Advance</item>
     </string-array>
 
 
@@ -70,6 +70,39 @@
         <item>November</item>
         <item>December</item>
     </string-array>
+
+
+    <string-array name="department">
+        <item>Central Government</item>
+        <item>State Government</item>
+        <item>Private</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>MD/Chairman</item>
+        <item>CEO</item>
+        <item>Purchasing Officer</item>
+        <item>Quality management</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="leadloss">
+        <item>Our Quote Was Higher</item>
+        <item>We Got Late In Submission</item>
+        <item>Note Like the Quality</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="purpose">
+        <item>Cold Call</item>
+        <item>Inquiry Through Other Source</item>
+        <item>Instance Reference Call</item>
+    </string-array>
+
+
+
 
 
 </resources>

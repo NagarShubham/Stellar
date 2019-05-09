@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="0.2"
         android:background="@color/tvback"
         android:orientation="vertical">
@@ -21,94 +21,127 @@
             android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/color_icon_event"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
 
             <TextView
                 android:id="@+id/item_ltodate"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_event_black_24dp"
-                android:drawablePadding="15dp"
-                android:drawableTint="@color/whitecolor"
                 android:fontFamily="@font/text_me_one"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
-                android:text="hello"
+                android:text="startTime"
                 android:textColor="@color/whitecolor" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/color_icon_event"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
 
             <TextView
                 android:id="@+id/item_lformdate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_event_black_24dp"
-                android:drawablePadding="15dp"
-                android:drawableTint="@color/whitecolor"
                 android:fontFamily="@font/text_me_one"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="hello"
                 android:textColor="@color/whitecolor" />
 
-
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
-
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/color_icon_daytype"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
 
             <TextView
-
                 android:id="@+id/item_ldayType"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_wb_sunny_black_24dp"
-                android:drawablePadding="15dp"
-                android:drawableTint="@color/whitecolor"
                 android:fontFamily="@font/text_me_one"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="hello"
                 android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/color_icon_person"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
 
             <TextView
                 android:id="@+id/item_lstatus"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/icons_businessman"
-                android:drawablePadding="15dp"
-                android:drawableTint="@color/whitecolor"
                 android:fontFamily="@font/text_me_one"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="hello"
                 android:textColor="@color/whitecolor" />
 
-
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_edit_property" />
+                android:layout_marginStart="8dp"
+                android:src="@drawable/color_icon_edit" />
 
             <TextView
                 android:id="@+id/item_lresponce"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/text_me_one"
@@ -117,17 +150,19 @@
                 android:text="Heesdsfsdf"
                 android:textColor="@color/whitecolor" />
 
-            <TextView
-                android:id="@+id/mresponce"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.5"
-                android:drawablePadding="10dp"
-                android:textColor="@color/red"
-                android:padding="6dp"
-                android:text="hello"
-                />
+
+
         </LinearLayout>
+        <TextView
+            android:id="@+id/mresponce"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:drawablePadding="10dp"
+            android:textColor="@color/red"
+            android:padding="6dp"
+            android:layout_marginStart="16dp"
+            android:text="Regect restion"/>
 
     </LinearLayout>
 

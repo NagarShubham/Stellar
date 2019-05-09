@@ -3,14 +3,14 @@
 
 
 
-    <solid android:color="#b8d45c" />
+    <solid android:color="@color/backcolor" />
     <stroke
         android:width="0dip"
         android:color="#dddddd" />
     <corners
         android:bottomLeftRadius="15dp"
-        android:bottomRightRadius="10dp"
-        android:topRightRadius="10dp"
+        android:bottomRightRadius="6dp"
+        android:topRightRadius="6dp"
         android:topLeftRadius="-10dp"/>
     <padding
         android:bottom="0dip"

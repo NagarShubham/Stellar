@@ -10,16 +10,16 @@
     tools:context=".Scanner.OcrCaptureActivity"
     >
 
-    <coms.example.cwaa1.stellar.Scanner.cameraui.CameraSourcePreview
+    <com.stellar.android.app.Scanner.cameraui.CameraSourcePreview
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <coms.example.cwaa1.stellar.Scanner.cameraui.GraphicOverlay
+        <com.stellar.android.app.Scanner.cameraui.GraphicOverlay
             android:id="@+id/graphicOverlay"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </coms.example.cwaa1.stellar.Scanner.cameraui.CameraSourcePreview>
+    </com.stellar.android.app.Scanner.cameraui.CameraSourcePreview>
 
 </LinearLayout>

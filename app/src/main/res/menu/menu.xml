@@ -4,44 +4,49 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_Home"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/dashboard"
             android:title="Dashboard" />
         <item
             android:id="@+id/nav_weekplan"
-            android:icon="@drawable/icon_dashbord"
-            android:title="Weekly Plan" />
+            android:icon="@drawable/color_icon_edit"
+            android:title="Add Weekly Task" />
         <item
             android:id="@+id/nav_alead"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/ic_alead"
             android:title="Add Lead" />
         <item
             android:id="@+id/nav_listtask"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/ic_task"
             android:title="Task List" />
         <item
             android:id="@+id/nav_listlead"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/ic_lead"
             android:title="Lead List" />
         <item
             android:id="@+id/nav_addleave"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/leav"
             android:title="Add Leave" />
         <item
             android:id="@+id/nav_app"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/color_icon_aprove"
             android:title="Aprove Task " />
         <item
             android:id="@+id/nav_teamlead"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/team_lead"
             android:title="Team Lead" />
 
         <item
             android:id="@+id/nav_teamLeave"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/team_leav"
             android:title="Team Leave" />
         <item
+            android:id="@+id/nav_teamTask"
+            android:icon="@drawable/color_team_task"
+            android:title="Team Panding Task" />
+
+        <item
             android:id="@+id/nav_logout"
-            android:icon="@drawable/icon_dashbord"
+            android:icon="@drawable/color_icon_logout"
             android:title="Logout" />
     </group>
 </menu>

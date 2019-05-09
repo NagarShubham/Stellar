@@ -4,7 +4,9 @@
     android:id="@+id/Llongclick"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
     android:layout_weight="4"
     android:background="@color/tvback"
     android:orientation="horizontal">
@@ -312,6 +314,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/libutton"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity="end"

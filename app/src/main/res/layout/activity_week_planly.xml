@@ -170,8 +170,8 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/et_customername"
+            <AutoCompleteTextView
+                android:id="@+id/auto_customername"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginRight="8dp"
@@ -183,8 +183,8 @@
                 android:imeOptions="actionNext"
                 android:textColor="@color/textcolor" />
 
-            <EditText
-                android:id="@+id/et_mobile"
+            <AutoCompleteTextView
+                android:id="@+id/auto_mobile"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginLeft="8dp"
@@ -244,15 +244,15 @@
                 android:imeOptions="actionNext"
                 android:textColor="@color/textcolor" />
 
-            <EditText
+            <Spinner
                 android:id="@+id/et_purpose"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/edittext_backgroung"
-                android:hint="Purpose"
-                android:padding="10dp"
+                android:background="@drawable/spinerback_edittext"
+                android:entries="@array/purpose"
+                android:padding="4dp"
                 android:imeOptions="actionNext"
                 android:textColor="@color/textcolor" />
         </LinearLayout>

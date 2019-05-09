@@ -9,19 +9,19 @@
         android:id="@+id/send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/back_reciver_msg"
         android:padding="10dp">
 
         <TextView
             android:id="@+id/rc_sender"
+            android:background="@drawable/back_reciver_msg"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="4dp"
-            android:text="Testing in the proper manner is required Testing in the proper manner is required"
-            android:textSize="20sp" />
+            android:padding="8dp"
+            android:textColor="@color/whitecolor"
+            android:text="Testing "
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/ti_sender"
@@ -30,9 +30,12 @@
             android:layout_below="@id/rc_sender"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="6dp"
             android:text="12/10/2018 25:25:25"
-            android:textSize="12dp" />
+            android:textColor="#ddd0d0d0"
+            android:textSize="10dp"
+
+            />
     </RelativeLayout>
 
     <RelativeLayout
@@ -43,7 +46,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/chat_white_background"
         android:gravity="end"
         android:padding="10dp">
 
@@ -51,13 +53,18 @@
             android:id="@+id/rc_receiver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/chat_white_background"
+android:padding="8dp"
+            android:layout_alignParentEnd="true"
             android:layout_marginRight="4dp"
             android:gravity="right"
-            android:text="Testing in the proper manner is required Testing in the proper manner is required"
-            android:textSize="20sp"
+            android:text="Testing"
+            android:textSize="16sp"
             />
 
         <LinearLayout
+            android:layout_marginTop="6dp"
+
             android:layout_alignParentEnd="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,11 +77,10 @@
                 android:id="@+id/ti_receiver"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="2dp"
                 android:layout_marginRight="6dp"
-                android:layout_marginTop="4dp"
+                android:textColor="#ddd0d0d0"
+                android:textSize="10dp"
                 android:text="12/12/12 12:12:12"
-                android:textSize="12dp"
                 />
 
             <TextView
@@ -82,6 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="2dp"
+                android:gravity="center_vertical"
                 android:drawableEnd="@drawable/ic_forward_black_24dp"
                 android:drawablePadding="2dp"
                 android:text="Resend"

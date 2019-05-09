@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Stellar</string>
-    <string name="link">http://theclassbunkers.in/stellar_crm/mobileService/MobileApi</string>
+    <!--<string name="link">http://theclassbunkers.in/stellar_crm/mobileService/MobileApi</string>-->
+    <!---->
+    <string name="link">http://stellarglobal.com/stellar_crm/mobileService/MobileApi</string>
 
-    //testing
-
+    <!--testing-->
     <!--<string name="link">http://theclassbunkers.in/stellar_crm/testing_code/mobileService/MobileApi</string>-->
 
 
     <string name="Image_Path">http://theclassbunkers.in/stellar_crm/uploads/profileImages/</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <!--<string name="link">http://192.168.1.12/stellar_crm/mobileService/MobileApi</string>-->
 
+    <!--<string name="link">http://192.168.1.12/stellar_crm/mobileService/MobileApi</string>-->
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -48,6 +48,7 @@
     <string name="userimg">image_name</string>
     <string name="usertype">employee_type</string>
     <string name="attandenceStatus">attenStatus</string>
+    <string name="state">State</string>
 
 
     <string name="ok">OK</string>
@@ -63,6 +64,11 @@
     <string name="ocr_failure">No text captured</string>
     <string name="ocr_error">"Error reading text: %1$s"</string>
     <string name="title_activity_maps">Map</string>
+
+
+    <string name="nextfollowup">Take Next FollwUp  of </string>
+
+    <string name="updateApp">App Update Available </string>
 
 
 </resources>

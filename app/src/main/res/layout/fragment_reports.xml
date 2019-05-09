@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Report.ReportsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5E5E63"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/listTask"
+                app:layout_constraintTop_toBottomOf="@+id/alead"
+                app:layout_constraintVertical_bias="0.110000014">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text="No Of Lead "
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/tvnoflead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/whitecolor"
+                    android:textSize="24sp" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5E5E63"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/listTask"
+                app:layout_constraintTop_toBottomOf="@+id/alead"
+                app:layout_constraintVertical_bias="0.110000014">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text="no. of conversion"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/tvnofconver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/whitecolor"
+                    android:textSize="24sp" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5E5E63"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/listTask"
+                app:layout_constraintTop_toBottomOf="@+id/alead"
+                app:layout_constraintVertical_bias="0.110000014">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/text_me_one"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="No.of task of day/month/week"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/tvnoftask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="24sp"
+                    android:textColor="@color/whitecolor" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#5E5E63"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/listTask"
+            app:layout_constraintTop_toBottomOf="@+id/alead"
+            app:layout_constraintVertical_bias="0.110000014">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/text_me_one"
+                android:gravity="center"
+                android:text="leads in Very hot/ hot/ warm/ cold"
+                android:textColor="@color/whitecolor" />
+
+            <TextView
+                android:id="@+id/tvleadtype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/text_me_one"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:text=""
+                android:textColor="@color/whitecolor" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5E5E63"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/listTask"
+                app:layout_constraintTop_toBottomOf="@+id/alead"
+                app:layout_constraintVertical_bias="0.110000014">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text="Target"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/tvtarget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_marginTop="6dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/whitecolor" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5E5E63"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/listTask"
+                app:layout_constraintTop_toBottomOf="@+id/alead"
+                app:layout_constraintVertical_bias="0.110000014">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text="Achievement"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/tvachive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/text_me_one"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_marginTop="6dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/whitecolor" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDownload"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:textColor="@color/whitecolor"
+                android:background="@color/backcolor"
+                android:layout_marginEnd="2dp"
+                android:text="Download Report" />
+
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/btneMail"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/whitecolor"
+                android:background="@color/backcolor"
+
+                android:text="Email report" />
+
+            <Button
+                android:id="@+id/btnSendtoMager"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:textColor="@color/whitecolor"
+                android:background="@color/backcolor"
+                android:layout_weight="1"
+                android:text="Send to Manager" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnshare"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/whitecolor"
+            android:background="@color/backcolor"
+            android:layout_marginEnd="2dp"
+            android:text="Share Report " />
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
